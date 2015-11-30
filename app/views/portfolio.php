@@ -31,24 +31,47 @@
 			Page 1 - Soodas : Cover Page<br/>
 			Page 2 - Portfolio : Personal projects started since Sep 2015<br/>
 			Page 3 - About : About the author<br/><br/>
-			Code : <a href="" target="_blank"> GitHub</a><br/><br/>
+			Code : <a href="https://github.com/jiho0215/soodas.git" target="_blank"> GitHub</a><br/><br/>
 			Languages: HTML, CSS, JavaScript, PHP<br/>
 		</div>
 	</div>
 
 	<div class="project-preview-div">
 		<div class="project-preview-title">
+			Barcode scanner & Zebra printer tester
+		</div>
+		<div class="project-preview-img">
+			<div id="photo">
+				<img id="pb1" src="/pics/portfolio_pics/_Tester.png" >
+			</div>
+			<div id="thumbnails">
+				<a href="/pics/portfolio_pics/_Tester.png" onclick="swap(this, 'pb1'); return false;" onmouseover="swap(this, 'pb1'); return false;"><img src="/pics/portfolio_pics/th_Tester.png"></a>
+				<a href=""  onclick="swap(this, 'pb1'); return false;"  onmouseover="swap(this, 'pb1'); return false;"><img src=""></a>
+				<a href=""  onclick="swap(this, 'pb1'); return false;"  onmouseover="swap(this, 'pb1'); return false;"><img src=""></a>
+			</div>
+		</div>
+		<div class="project-preview-about">
+			Scan barcode & Print barcode using Zebra printer.<br/><br/>
+			Code : <a href="https://github.com/jiho0215/JL_Zebra-Printer_Scanner_Tester.git" target="_blank"> GitHub</a> Currently working on<br/><br/>
+			Language: C# <br/>
+			Framework: .NET Visual Studio 2015<br/>
+			Used : IO.Ports | ZPL 
+		</div>
+	</div>
+
+<div class="project-preview-div">
+		<div class="project-preview-title">
 			DB Data Detector
 		</div>
 
 		<div class="project-preview-img">
 			<div id="photo">
-				<img id="pb1" src="/pics/db_change_alert/main.png" >
+				<img id="pb2" src="/pics/db_change_alert/main.png" >
 			</div>
 			<div id="thumbnails">
-				<a href="/pics/db_change_alert/main.png" onclick="swap(this,'pb1'); return false;" onmouseover="swap(this,'pb1'); return false;"><img src="/pics/db_change_alert/th_main.png"></a>
-				<a href="/pics/db_change_alert/config.png"  onclick="swap(this,'pb1'); return false;"  onmouseover="swap(this,'pb1'); return false;"><img src="/pics/db_change_alert/th_config.png"></a>
-				<a href="/pics/db_change_alert/start.png"  onclick="swap(this,'pb1'); return false;"  onmouseover="swap(this,'pb1'); return false;"><img src="/pics/db_change_alert/th_start.png"></a>
+				<a href="/pics/db_change_alert/main.png" onclick="swap(this,'pb2'); return false;" onmouseover="swap(this,'pb2'); return false;"><img src="/pics/db_change_alert/th_main.png"></a>
+				<a href="/pics/db_change_alert/config.png"  onclick="swap(this,'pb2'); return false;"  onmouseover="swap(this,'pb2'); return false;"><img src="/pics/db_change_alert/th_config.png"></a>
+				<a href="/pics/db_change_alert/start.png"  onclick="swap(this,'pb2'); return false;"  onmouseover="swap(this,'pb2'); return false;"><img src="/pics/db_change_alert/th_start.png"></a>
 			</div>
 		</div>
 
@@ -65,43 +88,22 @@
 
 	<div class="project-preview-div">
 		<div class="project-preview-title">
-			Barcode scanner & Zebra printer tester
-		</div>
-		<div class="project-preview-img">
-			<div id="photo">
-				<img id="pb2" src="" >
-			</div>
-			<div id="thumbnails">
-				<a href="" onclick="swap(this, 'pb2'); return false;" onmouseover="swap(this, 'pb2'); return false;"><img src=""></a>
-				<a href=""  onclick="swap(this, 'pb2'); return false;"  onmouseover="swap(this, 'pb2'); return false;"><img src=""></a>
-				<a href=""  onclick="swap(this, 'pb2'); return false;"  onmouseover="swap(this, 'pb2'); return false;"><img src=""></a>
-			</div>
-		</div>
-		<div class="project-preview-about">
-			Scan barcode & Print barcode using Zebra printer.<br/><br/>
-			Code : <a href="" target="_blank"> GitHub</a><br/><br/>
-			Language: C# <br/>
-			Framework: .NET Visual Studio 2015<br/>
-			Used : WebClient | MathCollection | Regex | SQLClient
-		</div>
-	</div>
-
-	<div class="project-preview-div">
-		<div class="project-preview-title">
 			Paint Load (A monitoring system)<br/><br/>
 		</div>
 		<div class="project-preview-img">
 			<div id="photo">
-				<img id="pb3" src="" >
+				<img id="pb3" src="/pics/portfolio_pics/_load_no_data.png" >
 			</div>
+				<div class="project-preview-img">
 			<div id="thumbnails">
-				<a href="" onclick="swap(this, 'pb3'); return false;" onmouseover="swap(this, 'pb3'); return false;"><img src=""></a>
-				<a href=""  onclick="swap(this, 'pb3'); return false;"  onmouseover="swap(this, 'pb3'); return false;"><img src=""></a>
-				<a href=""  onclick="swap(this, 'pb3'); return false;"  onmouseover="swap(this, 'pb3'); return false;"><img src=""></a>
+				<a href="/pics/portfolio_pics/_load_no_data.png" onclick="swap(this,'pb3'); return false;" onmouseover="swap(this,'pb3'); return false;"><img src="/pics/portfolio_pics/th_load_no_data.png"></a>
+				<a href="/pics/portfolio_pics/_load_config1.png"  onclick="swap(this,'pb3'); return false;"  onmouseover="swap(this,'pb3'); return false;"><img src="/pics/portfolio_pics/th_load_config1.png"></a>
+				<a href="/pics/portfolio_pics/_load_config.png"  onclick="swap(this,'pb3'); return false;"  onmouseover="swap(this,'pb3'); return false;"><img src="/pics/portfolio_pics/th_load_config.png"></a>
 			</div>
 		</div>
+		</div>
 		<div class="project-preview-about">
-			Recreated an existing monitoring system, which is used on part-loading section of paint line.<br/><br/>
+			Recreated an existing monitoring system from the scratch with my own code. the original program is being used on a part-loading section of paint line.<br/><br/>
 			<label>Purpose : </label><label>Provides current loading part information to .</label><br/>
 			<br/>
 			Code : <a href="https://github.com/jiho0215/JL_Paint_Load.git" target="_blank"> GitHub</a><br/><br/>
